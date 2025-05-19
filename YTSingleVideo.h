@@ -2,11 +2,11 @@
 #import "MLVideo.h"
 
 typedef NS_ENUM(NSInteger, YTSingleVideoType) {
-     YTSingleVideoTypeVideo,
-     YTSingleVideoTypeAdInterrupt,
-     YTSingleVideoTypeContentInterstitial,
-     YTSingleVideoTypeTrailer,
- };
+    YTSingleVideoTypeVideo,
+    YTSingleVideoTypeAdInterrupt,
+    YTSingleVideoTypeContentInterstitial,
+    YTSingleVideoTypeTrailer,
+};
 
 @interface YTSingleVideo : NSObject
 - (MLVideo *)video; // Deprecated

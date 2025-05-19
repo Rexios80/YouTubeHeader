@@ -1,6 +1,6 @@
-#import "YTReelContentModel.h"
-#import "YTIPlayerResponse.h"
 #import "YTICommand.h"
+#import "YTIPlayerResponse.h"
+#import "YTReelContentModel.h"
 
 @interface YTReelModel : YTReelContentModel
 @property (nonatomic, readonly, assign) int videoType;
